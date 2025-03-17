@@ -55,14 +55,14 @@ This will start:
 ```
 MERNTasks/
 ├── node/              # Backend (Express & MongoDB)
-│   ├── models/        # MongoDB models
-│   ├── routes/        # API routes
-│   ├── server.js      # Main server file
+│   ├── src/
+│   │   ├── controllers/  # API Controllers
+│   │   ├── models/       # API models
+│   │   ├── routes/       # API Rputes
 │   └── .env           # Environment variables
 ├── react/             # Frontend (React)
 │   ├── src/
 │   │   ├── components/ # UI components
-│   │   ├── pages/      # Main pages
 │   │   ├── App.tsx     # Entry point
 │   ├── package.json   # Frontend dependencies
 │   └── .env           # Frontend configurations
